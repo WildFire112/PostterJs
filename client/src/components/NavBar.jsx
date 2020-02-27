@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom'
-import { StatefulToolTip } from 'react-portal-tooltip'
+//import { StatefulToolTip } from 'react-portal-tooltip'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/pro-solid-svg-icons'
@@ -54,7 +54,7 @@ class NavBar extends Component {
   onIdNameChange = e => {
     // eslint-disable-next-line
     const value = '@' + e.target.value.trim().replace(/[^\w\.]/gi, '')
-    this.setState({ idName: value === '@' ? '' : value })
+    this.setState({ registerIdName: value === '@' ? '' : value })
   }
 
   logOut = e => {
