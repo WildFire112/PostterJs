@@ -1,0 +1,64 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.sign-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 60px;
+  width: 800px;
+}
+
+.sign-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-block-title{
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 250px;
+  height: 35px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  color:#a0a0a0;
+  border: 1px solid #a0a0a0;
+  padding-left: 5px;
+}
+
+.sign-btn{
+  width: 250px;
+  height: 35px;
+  background-color: #7b39b9;
+  border-radius: 3px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sign-btn:hover{
+  background-color: #895ab6;
+  transition: all 0.3s;
+}
+
+.sign-btn:active {
+  background-color: #7b39b9;
+}
+/* TODO: удалить */
+.Test{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dotted #a0a0a0
+}

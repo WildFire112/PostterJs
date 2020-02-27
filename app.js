@@ -15,7 +15,7 @@ const usersRoute = require('./routs/users')
 dotenv.config()
 
 // Connect to db
-mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, (err) =>
+mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true }, (err) =>
   console.log('connected to db!\nconnection errors:', err)
 )
 

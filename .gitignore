@@ -3,3 +3,5 @@
 
 # misc
 .env
+
+/react-redux-thunk
